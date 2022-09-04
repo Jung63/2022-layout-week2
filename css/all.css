@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans", Roboto, Arial, sans-serif;
+  font-style: italic;
+  line-height: 1.5;
+}
+img{
+  margin: 0 auto;
+  max-width: 100%;
+  display: block;
+}
+/*font-size*/
+.fz-1{
+  font-size: 20px;
+}
+.fz-2{
+  font-size: 24px;
+}
+.fz-3{
+  font-size: 64px;
+}
+.fz-title{
+  font-size: 80px;
+}
+/*margin*/
+.mt-1{
+  margin-top: 56px;
+}
+.mt-2{
+  margin-top: 64px;
+}
+.mb-1{
+  margin-bottom: 56px;
+}
+.mb-2{
+  margin-bottom: 64px;
+}
+/*padding*/
+.pb-1{
+  padding-bottom: 32px;
+}
+.pb-2{
+  padding-bottom: 40px;
+}
+.pt-1{
+  padding-top: 16px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+header{
+  background-image: url(../img/banner.png);
+  background-position: center center;
+  background-size:cover;
+  height: 985px;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .container{
+  width: 304px;
+}
+.title-icon{
+  display: flex;
+  justify-content: center;
+}
+.title-icon a{
+  padding-left: 16px;
+}
+.about .container{
+  text-align: center;
+}
+.about h2{
+  padding-bottom: 40px;
+}
+.about-detail{
+  padding-top: 20px;
+  padding-bottom: 24px;
+}
+.about-list{
+  width: 384px;
+  border-top: 1px solid #000;
+  margin: 0 auto;
+  padding-top: 28px;
+}
+.about-list li{
+  margin-bottom: 24px;
+}
+.listStyle::before{
+  content: '';
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #891818;
+  margin-right: 16px;
+}
+.brand{
+  background-color: #000000;
+  border:1px solid #707070;
+}
+.brand-title{
+  color: #ffff;
+  text-align: center;
+}
+.brand-pic{
+  margin-top: 68px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.brand-pic li{
+  padding-bottom: 40px;
+}
+.work{
+  text-align: center;
+  margin-bottom: 133px;
+}
+.work-list{
+  padding-bottom: 48px;
+  display: flex;
+}
+.work-list li{
+  padding-right: 24px;
+}
+footer{
+  background-color: #000;
+  text-align: center;
+  color:#ffff;
+  padding: 64px 0;
+}
+
